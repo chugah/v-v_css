@@ -13,3 +13,10 @@ The general guidelines for the creation and submission of your work are as follo
 - You may use the CSS Preprocessor of your choice
 
 This assessment is not a definitive evaluation of how awesome you are as a developer, but it will help us better understand how you evaluate a design specifications, work through problems, and put elements together.
+
+Demo Links:
+
+ - header: https://codepen.io/chugah/pen/QWLmBvp
+ - Toggle switch: https://codepen.io/chugah/pen/qBWoMWW
+ - Buttons: https://codepen.io/chugah/pen/KKPoxXr
+ - Input: https://codepen.io/chugah/pen/oNvqaYo
