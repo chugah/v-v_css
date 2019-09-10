@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,700");
+
+body {
+  align-items: center;
+  background-color: #717DBE;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+div {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+input {
+  background-color: #49517B;
+  border: solid 2px #24283D;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #E6E7F2;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 1;
+  min-width: 300px;
+  padding: 18px 12px;
+  transition: all .2s linear;
+}
+
+input:focus {
+  background: #717DBE;
+  border: solid 2px #0027FF;
+  caret-color: #0027FF;
+  color: #383E5E;
+  outline: none;
+}
+
+input:focus + label {
+  background-color: #717DBE;
+  color: #0027FF;
+  padding: 3px;
+  top: -10px;
+  transition: top .2s linear, padding .2s linear .2s, background-color 0s linear .2s;
+}
+
+input:valid {
+  background: #717DBE;
+  border: solid 2px #383E5E;
+  caret-color: #383E5E;
+  outline: none;
+}
+
+input:valid + label {
+  background-color: #717DBE;
+  color: #383E5E;
+  top: -10px;
+  transition: top .2s linear, background-color 0s linear .2s;
+}
+
+label {
+  background-image: transparent;
+  color: #E6E7F2;
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  left: 9px;
+  top: 19px;
+  letter-spacing: 0;
+  line-height: 16px;
+  padding: 3px;
+  position: absolute;  
+  transition: top .2s linear, padding .2s linear, background-color 0s linear;
+}
